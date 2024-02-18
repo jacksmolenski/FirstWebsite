@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="common_style.css"/>
+    <title>Jack Smolenski's Page</title>
+    <style>
+        .blogPost {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: rgb(1, 139, 1);
+        }
+        
+        .blogPhoto {
+            height: 200px;
+            width: 100px;
+            padding-left: 10px;
+        }
+
+        .blogP {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .blogPhoto:hover {
+            transform: scale(2);
+        } 
+
+        .square {
+            border: 2px solid black;
+            padding: 5px;
+            margin: 5px;
+            background-color: rgb(172, 167, 167);
+            border-radius: 10%;
+        }
+
+    </style>
+    </head>
+    <body class="aboutBody">
+        <header>
+            <nav>
+                <div>
+                    <img class="logo" src="./Photos/IMG_1281.jpg"
+                    alt="Jack Happy Logo">
+                </div> 
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./aboutme.html">About</a></li>
+                    <li><a class="current" href="./blog.html">Blog</a></li>
+                    <li><a href="./pets.html">Pets</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="aboutMain" style="background-color: rgb(1, 139, 1);">
+            <aside class="blogAside">
+                <p>Enjoy some of these photos from random moments in my life!</p></aside>
+            <div class="blogPost">
+                <div class="square">
+                <img src="./Photos/JacksTrip.png" 
+                alt="A trip I took!" class="blogPhoto">
+                <p class="blogP">This is a trip I took! I drove to a bunch of<br>
+                    state parks in PA and my last stop was<br> 
+                    this lake at sunset!</p>
+                </div>
+                <div class="square">
+                <img src="./Photos/HighlandLake.jpg"
+                 alt="Lake Scene" class="blogPhoto">
+                <p class="blogP">My cousins and I out on the lake during the summer!</p>
+                </div>
+                <div class="square">
+                <img src="./Photos/dirtyCar.jpg"
+                 alt="My dirty car!" class="blogPhoto" style="height: 150px; width: 125px;">
+                <p class="blogP">This was my car after a day of driving on dirt<br>
+                    roads covered in snow!</p>
+                </div>
+                <div class="square">
+                <img src="./Photos/Lemur.jpg"
+                 alt="A lemur I saw at a zoo!" class="blogPhoto">
+                <p class="blogP">This is a lemur I saw at a zoo in Spain!</p>
+                </div>
+                <div class="square">
+                <img src="./Photos/babyJFishing.JPG"
+                 alt="A fish I caught!" class="blogPhoto" style="height: 200px; width: 180px;">
+                <p class="blogP">This was my first catch fishing ever!</p>
+                </div>
+                <div class="square">
+                <img src="./Photos/balloons.jpg"
+                 alt="Balloons!" class="blogPhoto" style="height: 200px; width: 150px;">
+                <p class="blogP">TBT to when my friend pranked me and <br>
+                placed 1000 balloons in my dorm room... >:/</p>
+                </div>
+                <div class="square">
+                <img src="./Photos/BatmanWall.JPG"
+                 alt="Batman?!" class="blogPhoto" style="height: 200px; width: 160px;">
+                <p class="blogP">Batman?!</p>
+                </div>
+                <div class="square">
+                <img src="./Photos/jcmw.jpg"
+                 alt="Jack and Friend atop mountain!" class="blogPhoto" style="height:150px; width: 200px;">
+                <p class="blogP">My friend Connor and I atop<br>
+                    Mt. Washington!</p>
+                </div>
+            </div>
+            <aside class="blogAside">
+                <p>Fun fact: Did you know that I have gotten
+                stitches on 2 different Christmas's?</p>
+            </aside>
+        </main>
+        <footer class="aboutFooter">
+            <h3 style="display: flex; justify-content: center;">
+                Thats all... for now muhahaha!
+            </h3>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,66 @@
+<!-- Nav Bar Practice Doc-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="common_style.css"/>
+    <title>Home Page</title>
+    <style>
+        .helloV {
+            color: black;
+            display: flex;
+            justify-content: center;
+            background-color: rgba(139, 138, 138, 0.8);
+            width: 20%;
+            margin-left: 40%;
+            padding: 10px;
+            border-radius: 2em;
+        }
+
+        .myName {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(139, 138, 138, 0.8);
+            width: 20%;
+            margin-left: 40%;
+            padding: 10px;
+            border-radius: 2em;
+        }
+
+    </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div>
+                    <img class="logo" src="./Photos/IMG_1281.jpg"
+                     alt="Jack Happy Logo">
+                </div> 
+                <ul>
+                    <li><a class="current" href="./index.html">Home</a></li>
+                    <li><a href="./aboutme.html">About</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a href="./pets.html">Pets</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main style="background-image: url(https://www.wildnatureimages.com/images/640/070620-014-The-Tetons.jpg);
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        height: 100vh;">
+            <h1 style="color: black; display: flex; 
+            justify-content: center; font-weight: bolder;" class="helloV">Hello Visitors!</h1>
+            <p style="display:flex; justify-content: 
+            center; color: black; font-size: 20px; font-weight: bolder;" class="myName">
+            My name is Jack Smolenski!
+            See pages in the Nav Bar to learn more about me!</p>
+            <div id="bear" class="bw">
+                <img src="./Photos/bearclear.png" 
+                style="height: 100px; width: 150px;" alt="Grizzly Bear">
+                <img src="./Photos/angryBear.png"
+                class="angryBear" alt="Angry Grizzly Bear">
+            </div>
+        </main>
+    </body>
+</html>
+

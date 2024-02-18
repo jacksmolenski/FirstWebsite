@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="common_style.css"/>
+    <title>Jack Smolenski's Page</title>
+    <style>
+        .blogPost {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            background-color: rgb(1, 139, 1);
+        }
+        
+        .blogPhoto {
+            height: 200px;
+            width: 150px;
+            padding-left: 10px;
+        }
+
+        .blogP {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .blogPhoto:hover {
+            transform: scale(2);
+        } 
+
+        .square {
+            border: 2px solid black;
+            padding: 5px;
+            margin: 5px;
+            background-color: rgb(172, 167, 167);
+            border-radius: 10%;
+        }
+
+    </style>
+    </head>
+    <body class="aboutBody">
+        <header>
+            <nav>
+                <div>
+                    <img class="logo" src="./Photos/IMG_1281.jpg"
+                    alt="Jack Happy Logo">
+                </div> 
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./aboutme.html">About</a></li>
+                    <li><a href="./blog.html">Blog</a></li>
+                    <li><a class="current" href="./pets.html">Pets</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="aboutMain" style="background-color: rgb(1, 139, 1);">
+            <aside class="blogAside">
+                <p>These are my pets! I love animals!</p>
+                </aside>
+            <div class="blogPost">
+                <div class="square">
+                <img src="./Photos/Gus.jpg" 
+                alt="A black cat Gus!" class="blogPhoto">
+                <p class="blogP">This is an old picture of my<br>
+                cat Gus. Tied for my favorite pet ever, he was<br>
+                the BEST cat!</p>
+                </div>
+                <div class="square">
+                <img src="./Photos/Maisy.jpg"
+                 alt="Black Lab Maisy" class="blogPhoto" style="height:200px; width: 220px;">
+                <p class="blogP">This is my dog Maisy. She is the happiest<br>
+                dog on Earth, and never fails to make me smile.<br>
+                This picture is from when she tore my mother's garden up! LOL</p>
+                </div>
+                <div class="square">
+                <img src="./Photos/2dogs.jpg"
+                 alt="Two dogs" class="blogPhoto" style="height: 150px; width: 125px;">
+                <p class="blogP">These are my two dogs Luna (Newfoundland)<br>
+                and Benny (Chocolate Lab). These two are younger dogs<br>
+                and they love attention!</p>
+                </div>
+                <div class="square">
+                <img src="./Photos/Gru.PNG"
+                 alt="A fish" class="blogPhoto" style="height: 225px; width: 130px;">
+                <p class="blogP">My fish Gru! He's the king of my 125 gallon<br>
+                fish tank!</p>
+                </div>
+                <div class="square">
+                <img src="./Photos/Harley.jpg"
+                 alt="Harley!" class="blogPhoto">
+                <p class="blogP">This is my cat Harley. And just like<br>
+                his brother used to do, he loves to climb ladders!</p>
+                </div>
+            </div>
+            <aside class="blogAside">
+                <p>Fun fact: We got my dog Maisy for FREE!</p>
+            </aside>
+        </main>
+        <footer class="aboutFooter">
+            <h3 style="display: flex; justify-content: center; color: rgb(34, 164, 251)">
+                My pets are the best!
+            </h3>
+        </footer>
+    </body>
+</html>
